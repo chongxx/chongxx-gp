@@ -1,5 +1,5 @@
 baseURL = "https://chongxx.github.io/"
-title = "这里是Chongxx"
+title = "Chongxx of blog"
 
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
@@ -11,9 +11,9 @@ googleAnalytics = ""
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "default"
+  style = "blue"
   description = "blog"
-  copyright = "&copy;2016 ❤"
+  copyright = "&copy;2017 ❤"
   sidebarAbout = [
     "Hello, I'm Chong~"
   ]
