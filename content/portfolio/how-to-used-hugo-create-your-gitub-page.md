@@ -47,7 +47,7 @@ $ git push -u origin master
 
 > 但这样实在是太简陋了，接下我们使用hugo来丰富一下这个blog
 
-##### 1、直接下载hugo编译好的二进制文件到本地解压后把hugo放到环境变量中 [https://github.com/gohugoio/hugo/releases](https://github.com/gohugoio/hugo/releases)（我认为这是最快的方法，当然你也可以按照[hugo](https://gohugo.io/getting-started/quick-start/) 的Quick Start来安装
+##### 1、直接下载hugo编译好的二进制文件到本地解压后把hugo放到环境变量中 [https://github.com/gohugoio/hugo/releases](https://github.com/gohugoio/hugo/releases)（我认为这是最快的方法，当然你也可以看[hugo quick start](https://gohugo.io/getting-started/quick-start/) 的Quick Start来安装）
 
 ##### 2、hugo已经安装好了，这时候我们可以使用hugo来生成一个静态网站
 ```console
@@ -107,7 +107,7 @@ hugo \
 ### 最最最后再提醒下
 ---
 
-1. 每次修改文章后建议先在本地运行`$ hugo server`看看blog运行是够正常，再push
+1. 每次修改文章后建议先在本地运行`$ hugo server`看看blog运行是否正常，再push
 2. Github Page 还有很多细节比如自定义域名等，请看相关文档 [https://github.io](https://github.io)
 3. Hugo 也还有很多细节，请看相关文档[https://gohugo.io/](https://gohugo.io/)
 4. 主页的菜单、联系方式等配置都可以在根目录的`_config.toml`中修改
